@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables - NEVER commit these
+.env
+.env.local
+.env.production
+.env.staging
+!.env.example
+
+# Generated files
+requirements.txt
+
+# Database
+*.db
+*.sqlite3
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Alembic - keep structure, ignore nothing here
+# (alembic/versions/ should be committed)
+
+# Logs
+*.log
+logs/
+
+
+.venv/
+__pycache__/
+.env
+.pytest_cache/
+dist/
